@@ -1,6 +1,6 @@
 # PustakaTerpadu
 
-![PustakaTerpadu Logo](public/logo.svg)
+<img src="public/logo.svg" alt="PustakaTerpadu Logo" width="120">
 
 **UAS Teknologi Sistem Terintegrasi - 18223096**
 
@@ -8,6 +8,7 @@ PustakaTerpadu adalah aplikasi Front-End terpadu untuk perpustakaan yang mengint
 
 ## Links
 
+- **Website**: [https://uas-tst-18223096-pustaka-terpadu.vercel.app/](https://uas-tst-18223096-pustaka-terpadu.vercel.app/)
 - **Repository**: [https://github.com/Matthew12-t/UAS-TST_18223096_PustakaTerpadu.git](https://github.com/Matthew12-t/UAS-TST_18223096_PustakaTerpadu.git)
 - **Books Service**: `http://18223014.tesatepadang.space`
 - **Loan Service**: `http://18223096.tesatepadang.space`
