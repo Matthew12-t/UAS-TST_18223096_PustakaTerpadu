@@ -1,6 +1,6 @@
 # PustakaTerpadu
 
-<img src="public/logo.svg" alt="PustakaTerpadu Logo" width="120">
+<img src="public/logo.svg" alt="PustakaTerpadu Logo" width="200">
 
 **UAS Teknologi Sistem Terintegrasi - 18223096**
 
