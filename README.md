@@ -46,7 +46,7 @@ PustakaTerpadu adalah aplikasi Front-End terpadu untuk perpustakaan yang mengint
 
 Aplikasi ini mengintegrasikan **2 backend service** yang berbeda:
 
-### Books Service (18223014)
+### Cataloging Service (18223014)
 Base URL: `http://18223014.tesatepadang.space`
 
 | Endpoint | Method | Deskripsi |
@@ -57,7 +57,7 @@ Base URL: `http://18223014.tesatepadang.space`
 | `/api/books/year/:year` | GET | Filter buku berdasarkan tahun |
 | `/api/books/author/:author` | GET | Filter buku berdasarkan penulis |
 
-### Loan Service (18223096)
+### Circulation Service (18223096)
 Base URL: `http://18223096.tesatepadang.space`
 
 | Endpoint | Method | Deskripsi |
@@ -221,11 +221,3 @@ Aplikasi menggunakan **dual token system**:
 2. **Books Token**: JWT yang di-generate client-side untuk akses Books Service
 
 Token disimpan di `localStorage` dan di-manage melalui `AuthContext`.
-
-## Author
-
-**18223096** - UAS Teknologi Sistem Terintegrasi
-
-## License
-
-Project ini dibuat untuk keperluan akademis UAS TST.

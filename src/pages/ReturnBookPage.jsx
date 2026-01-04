@@ -61,7 +61,6 @@ export default function ReturnBookPage() {
     try {
       await loanApi.returnBook(token, loanId)
       setSuccess("Buku berhasil dikembalikan!")
-      // Refresh loans for this user
       fetchUserLoans()
     } catch (err) {
       setError(err.message)
