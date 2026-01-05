@@ -106,6 +106,7 @@ UAS-TST_18223096_PustakaTerpadu/
 │   └── main.jsx                # Entry point
 ├── index.html
 ├── vite.config.js              # Konfigurasi Vite & proxy
+├── vercel.json                 # Konfigurasi Vercel rewrites/proxy
 ├── jsconfig.json               # Path alias configuration
 ├── eslint.config.js            # ESLint configuration
 └── package.json
