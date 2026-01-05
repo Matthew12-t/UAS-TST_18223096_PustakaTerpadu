@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/loan/:path*",
+      "destination": "http://18223096.tesatepadang.space/:path*"
+    },
+    {
+      "source": "/api/books/:path*",
+      "destination": "http://18223014.tesatepadang.space/api/books/:path*"
+    }
+  ]
+}
