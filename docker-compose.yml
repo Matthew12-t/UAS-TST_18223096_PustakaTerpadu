@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  pustakaterpadu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pustakaterpadu
+    ports:
+      - "3000:80"
+    restart: unless-stopped
