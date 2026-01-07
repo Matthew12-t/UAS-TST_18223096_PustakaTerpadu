@@ -20,8 +20,8 @@ async function generateBooksToken(userId, role) {
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null)
-  const [token, setToken] = useState(null) // Token (Loan Service)
-  const [booksToken, setBooksToken] = useState(null) // Token (Books Service)
+  const [token, setToken] = useState(null) // Token (Circulation Service)
+  const [booksToken, setBooksToken] = useState(null) // Token (Cataloging Service)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {

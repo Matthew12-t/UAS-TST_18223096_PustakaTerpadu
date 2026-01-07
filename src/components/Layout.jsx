@@ -148,7 +148,7 @@ export default function Layout({ children }) {
               </span>
             </div>
             <div className="text-sm text-muted-foreground">
-              Integrasi Books Service & Loan Service
+              Integrasi Cataloging & Circulation Service
             </div>
           </div>
         </div>
